@@ -4,6 +4,13 @@ A minimal, monospaced, terminal style theme for Hugo. Creates HTML as well as Ge
 
 amberterm is based on [smol](https://github.com/colorchestra/smol) which is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux).
 
+All code to generate Gemini pages have been taken from the following pages:
+
+  * [https://sylvaindurand.org/gemini-and-hugo/](https://sylvaindurand.org/gemini-and-hugo/)
+  * [https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/](https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/)
+
+The credits go to the authors of the above mentioned posts
+
 
 ![Screenshot](/images/screenshot.png)
 

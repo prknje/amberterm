@@ -1,9 +1,9 @@
 The MIT License (MIT)
 
 Copyright (c) 2016 Vimux
-
 Copyright (c) 2020 colorchestra
-
+Copyright (c) 2021 Wouter Groeneveld (Gemini code)
+Copyright (c) 2021 Sylvain Durand (Gemini code)
 Copyright (c) 2021 Michael Clemens
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
