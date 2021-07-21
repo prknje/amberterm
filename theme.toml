@@ -1,0 +1,17 @@
+name = "amberterm"
+license = "MIT"
+licenselink = "https://git.qrz.is/clemens/amberterm/blob/master/LICENSE.md"
+description = "A minimal, monospaced, terminal style theme for Hugo."
+homepage = "https://git.qrz.is/clemens/amberterm"
+tags = ["blog", "minimal", "monospace", "dark mode", "simple", "clean", "responsive", "fast", "no-js", "no-tracking", "privacy"]
+features = ["blog", "privacy", "responsive", "fast"]
+min_version = "0.20"
+
+[author]
+  name = "Michael Clemens"
+  homepage = "qrz.is"
+
+[original]
+  author = "Morph"
+  homepage = "morph.sh"
+  repo = "https://github.com/colorchestra/smol"
