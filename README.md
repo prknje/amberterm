@@ -78,4 +78,4 @@ You can add captions to images (technically using `<figcaption>` HTML tags) by a
 
 ## License
 
-This theme is released under the [MIT license](https://git.qrz.is/clemens/amberterm/blob/master/LICENSE).
+This theme is released under the [MIT license](https://git.qrz.is/clemens/amberterm/raw/branch/master/LICENSE.md).
