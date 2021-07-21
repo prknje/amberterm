@@ -1,6 +1,6 @@
 # amberterm
 
-A minimal, monospaced, terminal style theme for Hugo.
+A minimal, monospaced, terminal style theme for Hugo. Creates HTML as well as Gemini files.
 
 amberterm is based on [smol](https://github.com/colorchestra/smol) which is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux).
 
@@ -66,6 +66,41 @@ Lastly, add the following lines to your `config.toml` to set site parameters and
         weight = 3 
 
 ```
+
+If you'd like to automatically generate a gemini capsule, please add the following to your config.toml:
+
+```
+[mediaTypes]
+[mediaTypes."text/gemini"]
+    suffixes = ["gmi"]
+[mediaTypes."application/atom"]
+    suffixes= ["xml"]
+
+
+[outputFormats]
+[outputFormats.Gemini]
+    name = "GEMINI"
+    isPlainText = true
+    isHTML = false
+    mediaType = "text/gemini"
+    protocol = "gemini://"
+    permalinkable = true
+    path ="gemini/"
+[outputFormats.gemini_atom]
+    name = "GEMINI_ATOM"
+    isPlainText = true
+    isHTML = false
+    baseName = "atom"
+    path = "gemini/"
+    protocol = "gemini://"
+    mediaType = "application/atom"
+
+[outputs]
+  home = ["HTML", "GEMINI_ATOM", "GEMINI"]
+  page = ["HTML", "GEMINI"]
+```
+
+You probably want to change the parameter "path" which is the directory where the gemini files will be written to.
 
 For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
 
