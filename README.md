@@ -19,7 +19,7 @@ The credits go to the authors of the above mentioned posts
 In your Hugo site `themes` directory, run:
 
 ```
-git submodule add https://git.qrz.is/clemens/amberterm
+git submodule add https://codeberg.org/mclemens/amberterm
 ```
 
 Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `amberterm`.
@@ -120,4 +120,4 @@ You can add captions to images (technically using `<figcaption>` HTML tags) by a
 
 ## License
 
-This theme is released under the [MIT license](https://git.qrz.is/clemens/amberterm/raw/branch/master/LICENSE.md).
+This theme is released under the [MIT license](https://codeberg.org/mclemens/amberterm/raw/branch/master/LICENSE.md).
