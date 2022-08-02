@@ -75,7 +75,7 @@ figure {
 	margin: auto
 }
 .ascii-art {
-    font-family: monospace;
+    font:6px/1.0 monospace;
     white-space: pre;
     line-height: 1;
 }
