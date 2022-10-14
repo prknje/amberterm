@@ -14,6 +14,7 @@ body{
 	margin:40px auto;
 	padding:0 10px;
 	font:15px/1.5 monospace;
+        text-align: justify;
 	color:var(--fontcolor); background: var(--bgcolor)
 }
 a:link{
@@ -68,7 +69,7 @@ img {
 }
 figcaption {
 	color: #888; 
-	font: 13px/1.5 monospace; 
+	font: 13px/1.5 monospace;
 	text-align: center;
 }
 figure {
