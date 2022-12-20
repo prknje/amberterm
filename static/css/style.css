@@ -13,8 +13,8 @@ body{
 	max-width:800px;
 	margin:40px auto;
 	padding:0 10px;
-	font:16px/1.5 monospace;
-        text-align: justify;
+	font:14px/1.5 monospace;
+        text-align: left;
 	color:var(--fontcolor); background: var(--bgcolor)
 }
 a:link{
@@ -85,4 +85,10 @@ div.ascii-art a{
 }
 div.nav a {
     text-decoration: none;
+}
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding-left: 10px;
+  padding-right: 10px;
 }
