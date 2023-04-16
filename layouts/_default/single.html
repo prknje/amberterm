@@ -3,7 +3,7 @@
 		<article>
 			<h1>{{ .Title }}</h1>
 			{{ if .Params.showthedate | default "true" }}
-				<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
+				<b><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }} // </time></b>
 		       {{ end }}	
 		       {{ range .Params.tags }}
 		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
@@ -13,5 +13,4 @@
 			</div>
 		</article>
 	</main>
-{{ partial "sidebar.html" . }}
 {{ end }}
