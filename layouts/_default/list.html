@@ -1,5 +1,6 @@
 {{ define "main" }}
 	<main>
+		<article>
 		{{ $listtitle := .Title }}
 		{{ if or .Title .Content }}
 		<div>
@@ -22,5 +23,6 @@
 		    {{ end }}
 		</ul>
 		{{ partial "pagination.html" . }}
+		</article>
 	</main>
 {{ end }}

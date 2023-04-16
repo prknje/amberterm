@@ -1,12 +1,15 @@
 <header>
 	<nav>
 		<span>
-		<a href="/"><b>{{ $.Site.Title }}</b></a>
+			<a href="/"><b>{{ $.Site.Title }}</b></a>
 		</span>
 		<span>
-		{{ with .Site.Menus.main }}
-		{{ range first 1 . }} <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
-		{{ range after 1 . }} - <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
+			&nbsp;&nbsp;&nbsp;
+		</span>
+		<span>
+			{{ with .Site.Menus.main }}
+			{{ range first 1 . }} <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
+			{{ range after 1 . }} - <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
 		</span>
 	</nav>
 	{{ end }}
