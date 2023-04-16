@@ -1,8 +1,13 @@
 <header>
 	<nav>
-		<a href="/"><b>Home</b></a>
+		<span>
+		<a href="/"><b>{{ $.Site.Title }}</b></a>
+		</span>
+		<span>
 		{{ with .Site.Menus.main }}
-		{{ range . }} - <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
+		{{ range first 1 . }} <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
+		{{ range after 1 . }} - <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a> {{ end }}
+		</span>
 	</nav>
 	{{ end }}
 	</header>

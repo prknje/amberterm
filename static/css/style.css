@@ -32,6 +32,14 @@ h1,h2,h3{
 nav a{
 	text-decoration: none;
 }
+navFooter{
+	text-align: center;
+}
+nav{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
 h1 a,h2 a,h3 a{
 	text-decoration: none;
 }
